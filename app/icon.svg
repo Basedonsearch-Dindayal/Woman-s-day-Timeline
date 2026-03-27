@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Background Gradient: Soft elegant blush -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5" />
+      <stop offset="100%" stop-color="#FFB6C1" />
+    </linearGradient>
+    
+    <!-- Lotus Petal Gradient: Rich vibrant pink/purple -->
+    <linearGradient id="lotus" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E81CFF" />
+      <stop offset="100%" stop-color="#400080" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Smooth squircle background -->
+  <rect width="512" height="512" rx="140" fill="url(#bg)" />
+  
+  <!-- Modern Geometric "W" and "M" (for Women/March) -->
+  <path d="M 120 160 Q 150 160 180 340 L 256 220 L 332 340 Q 362 160 392 160 L 320 400 L 256 280 L 192 400 Z" fill="url(#lotus)"/>
+  
+  <!-- Elegant abstract feminine flower shape overlaid -->
+  <path d="M 256 80 C 330 140 380 220 380 290 C 380 360 300 420 256 420 C 212 420 132 360 132 290 C 132 220 182 140 256 80 Z" fill="none" stroke="url(#lotus)" stroke-width="24" stroke-linecap="round"/>
+</svg>
